@@ -1,0 +1,57 @@
+:root{
+    --main-color:#EF3D59;
+    --color1:#efc958;
+    --color2:#4ab19d;
+    --bg:#2A363B;
+    --border:.1rem solid rgba(255,255,255,.3);
+    --letras: #fff;
+}
+
+.navbar{
+    background-color: #2A363B;
+}
+.navbar-nav a{
+    color: #fff;
+}
+.navbar-nav a:hover{
+    color: #61a46a;
+}
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(fondo.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container-1 .content{
+    text-align: center;
+    padding: 5px;
+}
+.como-funciona .box-container{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.como-funciona .card  span{
+    text-align: center;
+    background-color: #61a46a;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+
